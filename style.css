@@ -1,0 +1,213 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Roboto', sans-serif;
+} .header{
+width: 100%;
+background-image: url(https://meups.com.br/wp-content/uploads/2022/03/GTA-6-mulher-sendo-investigada-pela-policia-900x503.jpg);
+height: 60vh;
+width: 100%;
+background-size: cover;
+    
+} 
+  nav { 
+     text-align: right;
+    display: block;
+margin-bottom: 1rem;
+padding-top: 5px;
+}
+nav li {
+    display: inline-block;
+    list-style-type: none;
+} nav li a {
+    color: #fff;
+    font-size: 20px;
+    font-weight: bold;
+ 
+    text-decoration: none;
+    margin-right: 5px;
+   
+} .reservar-agora{
+    margin-top: 5rem;
+    font-weight: bold;
+    text-align: center;
+} .titulo{
+   
+    color: #fff;
+    font-size: 35px;
+    font-weight: bold;
+    
+
+}
+.subtitulo{
+    color: #fff;
+    font-size: 18px;
+    font-weight: bold;
+} .btn-order{
+    text-align: center;
+    padding: 10px;
+} .btn-order > input:hover{
+    transition: 1.5s;
+    background-color: rgba(19, 5, 5, 0.502);
+}
+
+input{
+    height: 1.8rem;
+    width: 7rem;
+    background-color: rgba(0, 0, 0, 0.531);
+    color:white;
+    cursor: pointer;
+    border: none;
+    font-size: 14px;
+    
+} body{
+    text-align: center;
+    background-color: rgba(0, 0, 0, 0.787);
+}
+
+main{
+background-color: black;
+    text-align: center;
+
+} 
+.titulo-avaliable{
+    margin-top: 10px;
+    margin-bottom: 2rem;
+    font-size: 30px;
+    font-family: sans-serif;
+    color: #fff;
+} .titulo-games{
+    font-family: sans-serif;
+    font-size: 20px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    color: #fff;
+} .games-available > img{
+    width: 300px;
+    height: 300px;
+    border-radius: 10px;
+} .container{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 15px;
+    overflow-y: auto;
+} .em_breve
+
+.btn > input:hover{
+    background-color: white;
+    color: black;
+    transition: 1s;
+} .titulo-breve{
+    font-size: 30px;
+    font-family: sans-serif;
+    color: #fff;
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+} .titulo-order{
+    color: #fff;
+    text-align: center;
+    font-size: 22px;
+    font-weight: bold;
+} .subtitulo-order{
+    text-align: center;
+    color: #fff;
+    font-weight: bold;
+    font-size: 22px;
+} .em_breve{
+    margin-top: 2rem;
+    
+} .pre-order{
+    display: flex;
+    overflow-x: auto;
+    gap: 1rem;
+    margin-left: 10px;
+ 
+} .switter-button-prev{
+    position: absolute;
+bottom: 8rem;
+    left: 0;
+    font-size: 40px;
+    color: white;
+} .switter-button-next{
+    position: absolute;
+    bottom: 8rem;
+    right: 0;
+    font-size: 40px;
+    color: white;
+}
+
+.em_breve > img {
+width: 300px;
+height: 300px;
+border-radius: 10px;
+
+box-shadow: 0px 0px 5px 0px white;
+}  .titulo-jogados{
+    font-size: 30px;
+    margin-top: 3rem;
+    margin-bottom: 3rem;
+    color: #fff;
+    font-weight: bold;
+    
+}   
+
+.descricao{
+    color: #fff;
+    text-align: center;
+    font-size: 25px;
+    font-weight: bold;
+    margin-bottom: 2rem;
+} span{
+    color: rgb(42, 255, 42);
+}  .games_jogados{
+    text-align: center;
+
+
+} .titulo-catalogo{
+    color: #fff;
+    text-align: center;
+    font-size: 25px;
+    font-weight: bold;
+    margin-bottom: 10px;
+}
+.games_jogados > img {
+    width: 300px;
+    height: 300px;
+    border-radius: 10px;
+    gap: 5px;
+   
+}  
+ .catalogo > img {
+    width: 300px;
+    height: 300px;
+} 
+ [data-anime]{
+    opacity: 0;
+    transition: 2s;
+} [data-anime="down"]{
+    transform: translate3d((0, -100%, 0));
+   } [data-anime="right"]{
+    transform: translate3d(500px,0,0)
+   }[data-anime="left"]{
+    transform: translate3d(-100%, 0,0);
+   } [data-anime="down"]{
+    transform: translate3d(0, -100%,0);
+   } [data-anime="up"]{
+    transform: translate3d(0, 100px,0);
+   }
+   
+   [data-anime].ativo{
+   opacity: 1;
+    transition: 2;
+  transform: translate3d(0,0,0);
+} .rodape {
+    color: #fff;
+    font-size: 25px;
+} .icon {
+    width: 40px;
+    height: 40px;
+} .footer-sociais > a {
+    text-decoration: none;
+    list-style-type: none;
+}

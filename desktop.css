@@ -1,0 +1,49 @@
+@media screen and (min-width: 800px) {
+
+    
+  .container{
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
+        justify-content: space-between;
+        gap: 5rem;
+    } .container > section{
+        border: none;
+    }.pre-order{
+       justify-content: space-evenly;
+            display: flex;
+        
+           
+        
+    } .mais-jogados{
+      display: flex;
+      margin: 0 auto;
+     justify-content: center;
+      gap: 15px;
+      flex-wrap: wrap;
+    }
+    
+    .games-available > img { 
+        width: 80%;
+        
+    } .em_breve > img{
+        width: 400px;
+        height: 400px;
+        
+    } 
+
+    } @media screen and (min-width: 1024px){
+       .catalogo > img {
+            width: 1000px;
+            height: 500px;
+            gap: 1rem;
+        } .header{
+            background-image: url(./img-game/GTA-6.jpg);    
+            background-position: top left;
+  
+
+        } .games_jogados > img{
+            width: 400px;
+            height: 400px;
+            gap: 2rem;
+        }
+    }
